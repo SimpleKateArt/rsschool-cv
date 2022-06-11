@@ -252,4 +252,32 @@ pre {
 	overflow: hidden;
 }
 
+.footer{
+	background: linear-gradient(77.62deg, #FFEDD7 39.2%, #F8F4EF 100.19%);
+	padding: 20px;
+	
+}
+.footer__info{
+	max-width: 880px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.fa-github{
+	font-size: 40px;
+}
+.rs-school__logo{
+	height: 40px;
+}
+.rs-school__logo:hover, .fa-github:hover{
+	transform: scale(1.1);
+}
+.info__year-production{
+	font-family: 'Ubuntu';
+	font-weight: 700;
+	font-size: 18px;
+}
+
 
