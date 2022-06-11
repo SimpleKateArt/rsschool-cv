@@ -12,16 +12,12 @@ body {
 a {
 	color: #000;
 }
-/* .container {
-	max-width: 1024px;
-	margin: 0 auto;
-} */
+
 .wrapper {
 	font-family: "Roboto";
 	max-width: 1024px;
 	margin: 0 auto;
 	margin-top: 20px;
-	/* min-height: 100%; */
 	overflow: hidden;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -47,7 +43,6 @@ a {
 	flex-direction: column;
 	overflow: hidden;
 	width: 35%;
-	/* padding-bottom: 50px; */
 	background: radial-gradient(77.33% 77.33% at 88.79% 47.13%, #efefef 0%, #c5c5c5 100%);
 }
 .aside__photo {
@@ -86,63 +81,71 @@ a {
 	padding-top: 11px;
 	padding-bottom: 9px;
 }
-.underline{
+.underline {
 	background-color: #000;
 	height: 1px;
 	width: 262px;
 	margin-top: 9px;
 	margin-left: 20px;
 }
-.fa-address-book, .fa-earth-europe, .fa-brain, .fa-square-check {
+.fa-address-book,
+.fa-earth-europe,
+.fa-brain,
+.fa-square-check {
 	font-size: 30px;
 	margin-left: 26px;
 	margin-right: 13px;
 }
-.contacts__body, .skills__body, .characteristics__body{
+.contacts__body,
+.skills__body,
+.characteristics__body {
 	margin-left: 30px;
 	margin-top: 10px;
 	padding-bottom: 25px;
 	line-height: 30px;
 }
 
-.fa-phone, .fa-envelope, .fa-discord{
+.fa-phone,
+.fa-envelope,
+.fa-discord {
 	margin-right: 12px;
 }
-.fa-discord{
+.fa-discord {
 	margin-right: 7px;
 }
-.contacts__discord{
+.contacts__discord {
 	line-height: 23px;
 }
-.disc{
+.disc {
 	margin-left: 30px;
 }
 
-.languages__body{
+.languages__body {
 	margin: 10px 0 0px 30px;
 	padding-bottom: 17px;
 	line-height: 30px;
 	max-width: 230px;
-	
 }
-.languages__english, .languages__russian, .languages__belarusian{
+.languages__english,
+.languages__russian,
+.languages__belarusian {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.progress{
+.progress {
 	display: flex;
 	justify-content: space-between;
 	width: 100px;
 }
-.progress__one-circle{
+.progress__one-circle {
 	width: 14px;
 	height: 14px;
 	background-color: #000;
 	border-radius: 50%;
 }
-.progress__two-circle{
+.progress__two-circle {
 	width: 14px;
 	height: 14px;
 	border: 1px solid #000;
@@ -172,7 +175,45 @@ a {
 	color: #b9b6b6;
 }
 
-.skills__list li, .characteristics__list li{
-	background: url('../assets/img/li.svg') left no-repeat;
+.skills__list li,
+.characteristics__list li {
+	background: url("../assets/img/li.svg") left no-repeat;
 	padding: 0 0 0 25px;
+}
+.content__body {
+	max-width: 588px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.education__head {
+	font-size: 24px;
+	line-height: 28px;
+	color: #8c8787;
+}
+.underline-2 {
+	border-bottom: 1px solid #8c8787;
+	margin-top: 13px;
+	/* background-color: #8C8787;
+	height: 1px;
+	width: 262px;
+	margin-top: 9px;
+	margin-left: 20px; */
+}
+.edication__body{
+	max-width: 556px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.edication__chapter{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	line-height: 23px;
+}
+.place-of-study{
+	font-weight: 700;
+}
+.chapter__years p{
+	font-size: 12px;
+	color: #7A7A7A;
 }
