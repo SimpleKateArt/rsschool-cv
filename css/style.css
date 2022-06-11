@@ -2,13 +2,23 @@
 	font-family: "Ubuntu";
 	src: url("../assets/fonts/ubuntu/Ubuntu-Regular.ttf");
 }
-
-.container {
+@font-face {
+	font-family: "Roboto";
+	src: url("../assets/fonts/roboto/Roboto-Regular.ttf");
+}
+body{
+	background-color: #EEEEEE;
+}
+/* .container {
 	max-width: 1024px;
 	margin: 0 auto;
-}
+} */
 .wrapper {
-	min-height: 100%;
+	font-family: "Roboto";
+	max-width: 1024px;
+	margin: 0 auto;
+	margin-top: 20px;
+	/* min-height: 100%; */
 	overflow: hidden;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -17,36 +27,48 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-sizing: border-box;
+	
 }
 .main {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	
 }
 .main__filling {
 	display: flex;
 }
 .aside {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	/* justify-content: center; */
 	overflow: hidden;
 	width: 35%;
-	height: 1500px;
+	height: 1000px;
 	background: radial-gradient(77.33% 77.33% at 88.79% 47.13%, #EFEFEF 0%, #C5C5C5 100%);
 }
-.avatar {
-	margin-top: 29px;
+.photo{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 302px;
-	height: 302px;
+	width: 100%;
+}
+.avatar {
+	margin-top: 23px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 275px;
+	height: 275px;
 	background-color: #fdf4e7;
 	border-radius: 50%;
 }
 .avatar__picture {
-	width: 275px;
-	height: 275px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 }
 
@@ -57,19 +79,18 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 78px 0 85px 0;
+	padding: 68px 0 70px 0;
 	background: linear-gradient(180deg, #FFEDD7 0%, #FFFFFF 113.9%);
 	font-family: "Ubuntu";
 }
 .header__name {
-	font-size: 58px;
+	font-size: 48px;
 	line-height: 83px;
 	color: #8c8787;
 	margin-bottom: 20px;
 }
 .header__specialize {
-	font-size: 28px;
+	font-size: 24px;
 	line-height: 37px;
 	color: #b9b6b6;
-	margin-bottom: 35px;
 }

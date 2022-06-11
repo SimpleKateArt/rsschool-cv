@@ -1,1 +1,1 @@
-https://simplekateart.github.io/rsschool-cv/index
+https://simplekateart.github.io/rsschool-cv/
