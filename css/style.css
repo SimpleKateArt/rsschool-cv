@@ -45,10 +45,9 @@ a {
 .aside {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	overflow: hidden;
 	width: 35%;
-	height: 1000px;
+	padding-bottom: 50px;
 	background: radial-gradient(77.33% 77.33% at 88.79% 47.13%, #efefef 0%, #c5c5c5 100%);
 }
 .aside__photo {
@@ -58,7 +57,8 @@ a {
 	width: 100%;
 }
 .photo__avatar {
-	margin-top: 23px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -73,8 +73,7 @@ a {
 	border-radius: 50%;
 }
 
-.aside__contacts {
-	margin-top: 60px;
+.aside__contacts, .aside__languages {
 	margin-bottom: 40px;
 }
 .block {
@@ -96,12 +95,12 @@ a {
 	margin-top: 9px;
 	margin-left: 20px;
 }
-.fa-address-book, .fa-earth-europe {
+.fa-address-book, .fa-earth-europe, .fa-brain {
 	font-size: 30px;
 	margin-left: 26px;
 	margin-right: 13px;
 }
-.contacts__body{
+.contacts__body, .skills__body{
 	margin-left: 30px;
 	margin-top: 10px;
 	padding-bottom: 25px;
@@ -173,4 +172,9 @@ a {
 	font-size: 24px;
 	line-height: 37px;
 	color: #b9b6b6;
+}
+
+.skills__list li{
+	background: url('../assets/img/li.svg') left no-repeat;
+	padding: 0 0 0 25px;
 }
