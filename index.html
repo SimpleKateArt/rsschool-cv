@@ -14,14 +14,27 @@
 
 <body>
 	<div class="wrapper">
+		<header class="header">
+			<div class="header__menu">
+				<nav class="menu__navigation">
+					<ul>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#code">Example of code</a></li>
+						<li><a href="#about-me">About me</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
 		<main class="main">
 			<div class="main__filling">
 				<div class="aside">
-					<section class="aside__photo">
+					<div class="aside__photo">
 						<div class="photo__avatar">
 							<img src="assets/img/ava.svg" alt="avatar" class="avatar__picture">
 						</div>
-					</section>
+					</div>
 					<section class="aside__contacts">
 						<div class="contacts__block  block">
 							<div class="contacts__head head">
@@ -121,7 +134,7 @@
 						<h2 class="header__specialize">JUNIOR FRONTEND DEVELOPER</h2>
 					</div>
 					<div class="content__body">
-						<section class="content__education">
+						<section class="content__education" id="education">
 							<div class="education__head-1 head-1">
 								<h2>Education</h2>
 								<div class="underline-2"></div>
@@ -134,7 +147,7 @@
 											<p>Economist-programmer</p>
 										</div>
 										<div class="chapter__years">
-											<p>2019 &#8211 now</p>
+											<p>2019 &#8211; now</p>
 										</div>
 									</div>
 								</div>
@@ -146,13 +159,13 @@
 											<p>Operator of electronic typing and layout; bookbinder</p>
 										</div>
 										<div class="chapter__years">
-											<p>2016 &#8211 2019</p>
+											<p>2016 &#8211; 2019</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</section>
-						<section class="content__experience">
+						<section class="content__experience" id="experience">
 							<div class="experience__head-1 head-1">
 								<h2>Experience</h2>
 								<div class="underline-2"></div>
@@ -174,7 +187,7 @@
 											<p><span>LLC “Druk-s”</span>, part-time job</p>
 										</div>
 										<div class="chapter__years">
-											<p>2021 &#8211 2022</p>
+											<p>2021 &#8211; 2022</p>
 										</div>
 									</div>
 									<div class="shapter__description">
@@ -201,7 +214,7 @@
 											<p><span>LLC “Medisont”</span>, bookbinder</p>
 										</div>
 										<div class="chapter__years">
-											<p>2018 &#8211 2019</p>
+											<p>2018 &#8211; 2019</p>
 										</div>
 									</div>
 									<div class="shapter__description">
@@ -214,7 +227,7 @@
 								</div>
 							</div>
 						</section>
-						<section class="content__code-example">
+						<section class="content__code-example" id="code">
 							<div class="code-example__head-1 head-1">
 								<h2>Code example</h2>
 								<div class="underline-2"></div>
@@ -223,9 +236,9 @@
 								<div class="code-example__charter">
 									<pre><code>
 let age = 0;
-if (age < 18) {
+if (age &lt; 18) {
   console.log("Teenager.");
-} else if (age < 8) {
+} else if (age &lt; 8) {
   console.log("Child.");
 } else {
   console.log("Adult.");
@@ -234,7 +247,7 @@ if (age < 18) {
 								</div>
 							</div>
 						</section>
-						<section class="content__about-me">
+						<section class="content__about-me" id="about-me">
 							<div class="about-me__head-1 head-1">
 								<h2>About me</h2>
 								<div class="underline-2"></div>
@@ -262,9 +275,10 @@ if (age < 18) {
 					<p>2022</p>
 				</div>
 				<div class="info__rs-school">
-					<a href="https://rs.school/js/"><img class="rs-school__logo" src="assets/img/rs_school_js.svg" alt="rsschool-logo"></a>
+					<a href="https://rs.school/js/"><img class="rs-school__logo" src="assets/img/rs_school_js.svg"
+							alt="rsschool-logo"></a>
 				</div>
-				
+
 			</div>
 		</footer>
 	</div>
