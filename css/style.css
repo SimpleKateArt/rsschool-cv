@@ -90,7 +90,7 @@ a {
 	font-size: 18px;
 	margin-right: 28px;
 	margin-left: 28px;
-	margin-bottom: 40px;
+	margin-bottom: 45px;
 }
 .head {
 	font-size: 24px;
@@ -232,7 +232,15 @@ a {
 	margin-top: 25px;
 	line-height: 23px;
 }
-.place-of-study{
+.link-courses{
+	font-weight: normal;
+}
+.link-courses:hover{
+	font-weight: normal;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px rgb(196, 193, 193);
+}
+.place-of-study, .courses{
 	font-weight: 700;
 }
 .chapter__years p{
